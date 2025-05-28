@@ -1,71 +1,55 @@
-# 📚 Book Recommendation System
+# 👋 Hi, I'm Anjali Devi Medapati!
 
-This is a simple content-based and collaborative filtering book recommendation system built using the [Book-Crossings dataset](https://www.kaggle.com/datasets/ruchi798/bookcrossing-dataset). The goal is to recommend books that are similar to a given title based on user ratings.
+🎓 Third-year B.Tech student in Computer Science (AI & ML)  
+🔍 Passionate about Machine Learning, Data Science, and Full-Stack Development  
+💻 Always learning and building real-world projects to grow my skills
 
-## 🔍 Overview
+---
 
-The system:
-- Loads and cleans user ratings and book metadata
-- Filters active users and popular books
-- Builds a pivot matrix of user ratings per book
-- Applies **k-nearest neighbors (KNN)** with **cosine similarity** to recommend similar books
+## 🛠️ Technical Skills
 
-## 🛠️ Technologies Used
+**Languages:** Python, Java, C++, SQL  
+**Libraries/Frameworks:** Pandas, NumPy, Scikit-learn, TensorFlow, OpenCV, Flask  
+**Tools:** Git, Power BI, Tableau, MySQL, Jupyter Notebook, VS Code  
+**Concepts:** Data Structures, OOP, DBMS, Operating Systems, Computer Networks  
 
-- Python 🐍
-- Pandas & NumPy for data manipulation
-- Scikit-learn for machine learning
-- SciPy for sparse matrix operations
-- Matplotlib for visualization (optional)
-- Google Colab (for development)
+---
 
-## 📁 Dataset
+## 💼 Experience
 
-The dataset used is the Book-Crossing dataset, consisting of:
-- `BX-Books.csv` — metadata about books
-- `BX-Book-Ratings.csv` — user ratings for books
+- **Data Analytics Intern** – APSCHE  
+  Developed Tableau dashboards to deliver actionable insights from complex datasets.
 
-Download:  
-```bash
-wget https://cdn.freecodecamp.org/project-data/books/book-crossings.zip
-unzip book-crossings.zip
-🚀 How It Works
-Load Data: Read in book and rating data from CSVs.
+- **Machine Learning Intern** – APSSDC (May–Jun 2024)  
+  Built a sentiment analysis pipeline using Scikit-learn and NLTK, achieving 92% accuracy.
 
-Filter: Keep users with ≥ 200 ratings and books with ≥ 100 ratings.
+---
 
-Pivot: Convert data to a book-user matrix (books as rows, users as columns).
+## 🚀 Projects
 
-Train Model: Fit a KNN model using cosine similarity on the sparse matrix.
+- 🔹 [Emotion Detector](https://github.com/22MH1A4242/Emotion-Detector)  
+  Real-time CNN-based app using Keras, OpenCV & Flask. Achieved 90% test accuracy.
 
-Recommend: Given a book title, return 5 most similar books.
+- 🔹 [Book Recommendation System](https://github.com/22MH1A4242/Book-Recommendation-System)  
+  Hybrid recommender using content-based & collaborative filtering.
 
-🧪 Sample Usage
-get_recommends('The Catcher in the Rye')
-Example Output:
-['The Catcher in the Rye',
- [['Tis: A Memoir', 0.78],
-  ["ANGELA'S ASHES", 0.77],
-  ['Their Eyes Were Watching God: A Novel', 0.77],
-  ['1984', 0.76],
-  ['To Kill a Mockingbird', 0.76]]]
-✅ Test Function
-A test case is included to verify if the system recommends the expected titles:
-test_book_recommendation()
-Output if passed:
-ed the challenge! 🎉🎉🎉🎉🎉
-📌 Notes
-Sparse matrices are used to improve performance and memory usage.
+- 🔹 [Distributed Semantic Search Engine](https://github.com/22MH1A4242/Semantic-Search-Engine)  
+  Scalable engine using Sentence Transformers & FAISS for real-time ANN search.
 
-Only highly rated books and active users are included for better accuracy.
+---
 
-The system does not require deep learning — it's pure scikit-learn.
+## 📜 Certifications
 
-📎 License
-This project is for educational purposes and uses open datasets.
+- Python for Beginners – Scalar Topics (Jul 2024)  
+- Machine Learning with Python – freeCodeCamp (May 2025)  
+- Data Analysis with Python – IBM
 
-🧠 Inspired by:
-FreeCodeCamp Data Science Projects
+---
 
-Book-Crossings dataset
+## 📫 Let's Connect
 
+- 📧 Email: medapatianjalidevi@gmail.com  
+- 🔗 [GitHub](https://github.com/22MH1A4242)  
+- 🧠 HackerRank: Python (5⭐), SQL (4⭐), DSA (4⭐)
+
+Thanks for visiting my profile! 😊
